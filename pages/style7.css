@@ -94,6 +94,7 @@
 }
 #squarecontainer{
     display: flex;
+    justify-content: center;
     flex-direction: row;
 }
 #section-4{
