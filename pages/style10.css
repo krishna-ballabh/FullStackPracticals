@@ -111,6 +111,9 @@ i {
     opacity: 1;
     
 }
+#check{
+    display: none;
+}
 #check:checked ~ .content{
     width: 75%;
 }
