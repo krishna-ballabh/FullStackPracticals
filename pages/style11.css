@@ -165,7 +165,7 @@ a:hover{
 }
 
 .sec-4 p:hover::after{
-    width: 100%;
+    width: 80%;
 }
 hr{
     opacity:0.1;
