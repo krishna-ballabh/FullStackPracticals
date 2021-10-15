@@ -1,0 +1,38 @@
+body{
+    background-color: grey;
+}
+#Calculator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#content h1{
+    color: white;
+    margin-top: 50px;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+}
+#minus{
+    background-color: yellow;
+    width: 50px;
+    height: 50px;
+    margin-right: 40px;
+    border: 2px solid black;
+    font-size: 40px;
+}
+#plus{
+    background-color: yellow;
+    width: 50px;
+    height: 50px;
+    margin-left: 40px;
+    font-size: 40px;
+    border:2px solid black;
+}
+#out{
+    font-size: 40px;
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

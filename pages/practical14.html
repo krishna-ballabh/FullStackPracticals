@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical-14</title>
+    <link rel="stylesheet" href = "style14.css">
+</head>
+<body>
+    <div id = "content">
+        <h1>COUNTER</h1>
+        <div id = "Calculator">
+            <button id = "minus" onclick="minus()">-</button>
+            <p id = "out">3</p>
+            <button id  = "plus" onclick="plus()">+</button>
+
+        </div>
+        <script>
+            function minus(){
+                var a = document.getElementById("out");
+                if(a.innerHTML <= 0){
+                    document.getElementById("minus").disabled = true;
+                }
+                else{
+                    a.innerHTML = a.innerHTML-1;
+                }
+            }
+                function plus(){
+                    var a = document.getElementById("out")
+                    if(document.getElementById("minus").disabled){
+                        document.getElementById("minus").disabled = false;
+                    }
+                    a.innerHTML = parseInt(a.innerHTML)+parseInt("1");
+                }
+            
+        </script>
+    </div>
+
+</body>
+</html>
