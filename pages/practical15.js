@@ -60,5 +60,5 @@ function showSuccess(input) {
 }
 
 function isEmailValid(emailValid) {
-    return /^([a-zA-Z0-9_\.\-]+)@([a-zA-Z0-9]+)\.([a-zA-Z]{2,3})(\.[a-zA-Z])*$/.test(emailValid);
+    return /^([a-zA-Z0-9_\.\-]+)@([a-zA-Z0-9]+)\.([a-zA-Z]{2,3})$/.test(emailValid);
 }
